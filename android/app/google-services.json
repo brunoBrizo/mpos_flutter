@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995449545678",
+    "project_id": "mpos-nad",
+    "storage_bucket": "mpos-nad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995449545678:android:365e71d2ca8d53dfc6019f",
+        "android_client_info": {
+          "package_name": "com.nad.mpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995449545678-08v0ar4qgv7p6i08pb6kjp7glhnfivcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo0h_a6rxu4JeKFeQDjkC3-TOrVNbEBVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995449545678-08v0ar4qgv7p6i08pb6kjp7glhnfivcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

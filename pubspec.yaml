@@ -1,0 +1,91 @@
+name: mpos
+description: Aplicación de pago mPOS NAD.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  foldable_sidebar: ^1.0.0
+  swipedetector: ^1.2.0
+  hive: ^2.0.0
+  hive_flutter: ^1.0.0
+  path_provider: ^2.0.1
+  http: ^0.13.0
+  xml: ^5.0.2
+  flutter_easyloading: ^3.0.0
+  share: ^2.0.0
+  firebase_core: ^1.0.1
+  firebase_analytics: ^7.1.1
+  firebase_auth: ^1.0.1
+  firebase_in_app_messaging: ^0.4.0
+  firebase_crashlytics: ^1.0.0
+  firebase_remote_config: ^0.9.0-dev.0
+  cloud_firestore: ^1.0.1
+  url_launcher: ^6.0.2
+  flutter_email_sender: ^5.0.0
+  printing: ^5.0.2
+  flutter_icons:
+  local_auth: ^1.1.0
+  cloud_firestore_web: ^1.0.1
+  firebase_analytics_web: ^0.2.0+1
+  firebase_core_web: ^1.0.1
+  path_provider_windows: ^2.0.0
+  responsive_framework: ^0.1.0
+  permission_handler: ^6.1.1
+  cupertino_icons: ^1.0.2
+  rxdart: ^0.26.0
+  window_size:
+    git:
+      url: git://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+  lottie: ^1.1.0
+  signature: ^4.1.1
+  pie_chart: ^5.0.0
+  animate_do: ^2.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.0.0
+  build_runner: ^1.0.0
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/LogoProducto.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/LogoProducto.png
+    - assets/images/cebrita.png
+    - assets/images/fondo.png
+    - assets/images/credit-card.json
+    - assets/images/next.png
+    # TARJETAS:
+    - assets/cards/amex.png
+    - assets/cards/anda.png
+    - assets/cards/cabal.png
+    - assets/cards/clubdeleste.png
+    - assets/cards/creditel.png
+    - assets/cards/edenred.png
+    - assets/cards/lider.png
+    - assets/cards/maestro.png
+    - assets/cards/mercadopago.png
+    - assets/cards/mastercard.png
+    - assets/cards/mides.png
+    - assets/cards/oca.png
+    - assets/cards/passcard.png
+    - assets/cards/sodexo.png
+    - assets/cards/tarjetad.png
+    - assets/cards/visa.png
+    - assets/cards/diners.png
+    - assets/cards/midinero.png
+    - assets/cards/nothing.png
